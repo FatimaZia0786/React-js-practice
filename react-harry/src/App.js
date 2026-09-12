@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-import React from 'react'
-import AttendanceDashboard from './Dashboard'
-import AttendanceChart from './chart'
-
-function App() {
-  return (
-    <>
-    <AttendanceDashboard/>
-    <AttendanceChart/>
-    </>
-  )
-=======
 import React from "react";
 function App() {
 
@@ -124,6 +111,5 @@ function App() {
  <p> Remainder: {remainder} </p>
  </div>
  );
->>>>>>> bfba87d03bbc34312d18d3e9d38123b673b33de9
 }
 export default App
