@@ -1,0 +1,81 @@
+.dashboard {
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f6f9;
+  min-height: 100vh;
+}
+
+/* Title */
+.dashboard h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+/* Summary Cards */
+.summary {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.summary div {
+  background: #fff;
+  padding: 15px 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-weight: bold;
+}
+
+/* Table Styling */
+.attendance-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.attendance-table th {
+  background: #2c3e50;
+  color: #fff;
+  padding: 12px;
+  text-align: left;
+}
+
+.attendance-table td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.attendance-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Buttons */
+button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:first-child {
+  background-color: #3498db;
+  color: #fff;
+}
+
+button:first-child:hover {
+  background-color: #2980b9;
+}
+
+button:last-child {
+  background-color: #2ecc71;
+  color: #fff;
+  margin-left: 10px;
+}
+
+button:last-child:hover {
+  background-color: #27ae60;
+}
